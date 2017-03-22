@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<center>
+
+		<select id="selectedClass">
+			<option value="all">Show All</option>
+			<option value="offense">Offense</option>
+			<option value="defense">Defense</option>
+			<option value="tank">Tank</option>
+			<option value="support">Support</option>
+		</select>
+
+		<br>
+
+		<div id="hanzo" class="img-holder defense">
+			<img src="/img/defense/hanzo/hanzo.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div id="mei" class="img-holder defense">
+			<img src="/img/defense/mei/mei.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Endothermic Blaster</p><img src="endoBlaster.jpg"></img>
+				<p>LMB short range spray weapon that freezes</p>
+				<p>RMB Launch a long range projectile</p>
+				<h4>L-Shift</h4>
+				<p>Ice Wall</p><img src="iceWall.jpg"></img>
+				<p>Create a wall in front of you</p>
+				<h4>E-Key</h4>
+				<p>Cryo Freeze</p><img src="cryoFreeze.jpg"></img>
+				<p>Become invulnerable and heal yourself</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Blizzard</p><img src="blizzard.jpg"></img>
+				<p>Launch a weather control drone that freezes enemies in a wide area</p>
+			</div>
+		</div>
+
+		<div class="img-holder defense">
+			<img src="/img/defense/widowmaker/widowmaker.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Widow`s kiss</p><img src="kiss.jpg"></img>
+				<p>LMB Automatic assault weapon</p>
+				<p>RMB Hold for long range sniper weapon</p>
+				<h4>L-Shift</h4>
+				<p>Venom Mine</p><img src="mine.jpg"></img>
+				<p>Launch a poison trap</p>
+				<h4>E-Key</h4>
+				<p>Grappling Hook</p><img src="gHook.jpg"></img>
+				<p>Launch a hook that pulls you towards a ledge</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Infra-Sight</p><img src="sight.jpg"></img>
+				<p>Provide your team with a view of the enemy´s location</p>
+			</div>
+		</div>
+
+		<div class="img-holder defense">
+			<img src="/img/defense/bastion/bastion.png"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder defense">
+			<img src="/img/defense/junkrat/junkrat.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder defense">
+			<img src="/img/defense/torbjorn/torbjorn.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder offense">
+			<img src="/img/offense/pharah/pharah.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder offense">
+			<img src="/img/offense/sombra/sombra.png"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder offense">
+			<img src="/img/offense/soldier/soldier.png"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder offense">
+			<img src="/img/offense/tracer/tracer.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+		<div class="img-holder offense">
+			<img src="/img/offense/reaper/reaper.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder offense">
+			<img src="/img/offense/genji/genji.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder offense">
+			<img src="/img/offense/mccree/mccree.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder support">
+			<img src="/img/support/lucio/lucio.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder support">
+			<img src="/img/support/mercy/mercy.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder support">
+			<img src="/img/support/zenyatta/zenyatta.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder support">
+			<img src="/img/support/symmetra/symmetra.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder support">
+			<img src="/img/support/ana/ana.png"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder tank">
+			<img src="/img/tank/dva/dva.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder tank">
+			<img src="/img/tank/reinhardt/reinhardt.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder tank">
+			<img src="/img/tank/winston/winston.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>>
+		</div>
+
+		<div class="img-holder tank">
+			<img src="/img/tank/zarya/zarya.jpg"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+		<div class="img-holder tank">
+			<img src="/img/tank/roadhog/roadhog.png"></img>
+			<div class="main-skills displayNone">
+				<h3>Character Skills</h3>
+				<h4>Primary Fire</h4>
+				<p>Storm Bow</p><img src="stormBow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>L-Shift</h4>
+				<p>Sonic Arrow</p><img src="sonicArrow.jpg"></img>
+				<p>Hold LMB to charge then release to launch arrows further</p>
+				<h4>E-Key</h4>
+				<p>Scatter Arrow</p><img src="scatterArrow.jpg"></img>
+				<p>Splits into multiple ricochet arrows on impact</p>
+				<h4>Q-Key / Ultimate</h4>
+				<p>Dragon Strike</p><img src="dragonStrike.jpg"></img>
+				<p>Launch a deadly dragon spirit that devastate enemies it passes through</p>
+			</div>
+		</div>
+
+	</center>
+<script>
+
+
+
+</script>
+
+
+</body>
+
+</html>
